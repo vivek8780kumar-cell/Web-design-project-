@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background: white;
+}
+
+header {
+    
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+     color: rgb(10, 10, 10); 
+    margin: 0 10px;
+    padding: 6px 10px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.hero-img {
+    width: 60%;
+    float: left;
+    margin-right: 20px;
+}
+
+.menu-item, .review-card {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-item img, .review-photo {
+    width: 80px;
+    height: 70px;
+}
+
+.price {
+    font-weight: bold;
+    color: #8b3a3a;
+}
+
+.reservation-form input,
+.reservation-form select,
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+footer {
+    color: rgb(15, 14, 14);
+    text-align: center;
+    padding: 10px;
+}
