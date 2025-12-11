@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice Garden - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script language="JavaScript">
+function signin(){
+var a,b;
+a=document.Signin.username.value;
+b=document.Signin.pswd.value;
+if(a==="" || b===""){
+alert("Fill all details asked.");
+return false;
+}
+else if(b.length<6){
+alert("Password must be of more than 6 characters.")
+return false;
+}
+else{
+alert("Sign In Successfully!!");
+ window.location.href = "index.html";
+return true;
+}
+}
+</script>
+</head>
+<body>
+<div class="wrapper">
+
+    <header>
+        <h1>Spice Garden</h1>
+        <p class="tagline">Please Login to Continue</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form name="Signin" method="post" action="">
+<table border="8" width="100%" align="center" height="300">
+<tr>
+<td>
+UserName:<input type="text" name="username" placeholder="USERNAME"><br><br><td></tr>
+
+<tr><td>
+Password:<input type="password" name="pswd" placeholder="PASSWORD"><br><br></td></tr>
+<tr><td>
+
+<input type="button"  value="Submit" onclick="JavaScript:signin();"><br></td></tr>
+</table>
+</form>
+            <p class="form-note">* Both fields are required.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Spice Garden Restaurant</p>
+    </footer>
+</div>
+
+
+
